@@ -4,7 +4,11 @@ venv/
 .venv/
 env/
 .env/
-
+# Archivos de entorno (en raíz y subcarpetas)
+.env
+/.env
+*.env
+*/.env
 # Python
 __pycache__/
 *.pyc
